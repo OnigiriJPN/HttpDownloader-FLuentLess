@@ -1,0 +1,23 @@
+﻿<Window x:Class="HttpDld.NetChecker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://lepo.co"
+        xmlns:local="clr-namespace:HttpDld"
+        mc:Ignorable="d"
+        Title="NetChecker" Height="250" Width="350" WindowStartupLocation="CenterOwner">
+    <Grid VerticalAlignment="Center">
+        <StackPanel Margin="20">
+            <TextBlock x:Name="StatusText" Text="準備中"
+            FontSize="18" FontWeight="SemiBold"
+            HorizontalAlignment="Center" Margin="0,0,0,20" />
+        <ProgressBar x:Name="PrgBar" IsIndeterminate="true"
+        Height="4" Margin="20,0,20,30" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="RetryBtn" Content="再確認"/>
+        </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
