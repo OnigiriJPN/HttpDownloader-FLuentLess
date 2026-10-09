@@ -3,9 +3,16 @@
 HttpDownloader
 
 WPFを使ったアプリです。
-WinUI3一切使わず！
-モダンで軽いネイティブなUI/UX。
-Windows 11 以降推奨
+FluentDesign非対応機種に合わせて作りました。
+将来は、このアプリに
+
+アップデーター
+
+を追加します。
+
+バグ修正
+
+も行います。
 
 # クレジット
 [Visual Studio 2026 Community](https://visualstudio.microsoft.com/ja/vs/community/)
